@@ -10,7 +10,7 @@ export const ToastEstudiante = (props) => {
     setShowToast(true)
 
     setTimeout(() => setShowToast(false),props.duracion)
-  }, []);
+  }, [props.duracion]);
 
   return (
     <div>
